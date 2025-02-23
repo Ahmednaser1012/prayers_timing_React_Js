@@ -211,8 +211,8 @@ export default function Main() {
         />
       </Stack> */}
       <div className="container text-center">
-        <div className="row g-4">
-          <div className="col-lg-8 col-sm-12">
+        <div className="row g-4 ">
+          <div className="col-lg-6 col-sm-12">
             <Prayer
               name="الفجر"
               time={timings.Fajr}
@@ -220,7 +220,7 @@ export default function Main() {
             />
           </div>
           <div
-            className="col-lg-4 col-sm-12 "
+            className="col-lg-5 col-sm-12 "
             style={{
               marginBottom: "5%",
             }}
@@ -232,12 +232,12 @@ export default function Main() {
             />
           </div>
         </div>
-        <div className="row g-3">
+        <div className="row g-4">
           <div className="col-sm">
             <Prayer
               name="العصر"
               time={timings.Asr}
-              image="https://pbs.twimg.com/media/D2GnMspXQAEsGBP.jpg"
+              image="https://pbs.twimg.com/media/D2GnMspXQAEsGBP.jpg "
             />
           </div>
           <div className="col-sm">
@@ -261,7 +261,12 @@ export default function Main() {
         <div className="row g-3">
           <div className="col-sm-12">
             <FormControl
-              style={{ marginTop: "15%", marginBottom: "10%", width: "80%" }}
+              style={{
+                marginTop: "15%",
+                marginBottom: "10%",
+                width: "80%",
+                backgroundColor: "rgba(201, 151, 71, 0.87)",
+              }}
             >
               <InputLabel id="demo-simple-select-label">
                 <span style={{ color: "white" }}>المدينة</span>

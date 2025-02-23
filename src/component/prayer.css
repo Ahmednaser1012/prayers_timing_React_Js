@@ -4,11 +4,12 @@
     justify-content: flex-end;
     flex-direction: column; */
 
-  /* width: 130%; */
-  /* max-height: 700px; */
+  width: 80%;
+  max-height: 500px;
 
   margin: 10px;
   padding: 20px;
+  margin-top: 5%;
   overflow: hidden;
   border: 2px solid #c7660b30;
   border-radius: 10px;
@@ -16,13 +17,13 @@
   transition: background 0.3s ease;
 }
 .prayer:hover {
-  background-color: #131921;
+  background-color: #c9974798;
   color: white;
   cursor: pointer;
 }
 .prayer > img {
   width: 100%;
-  max-height: auto;
+  max-height: 55%;
   object-fit: contain;
   margin-bottom: 15px;
   margin-top: 8%;
@@ -41,7 +42,7 @@
   line-height: 1.5;
 
   /* max-width: 90%; */
-  color: #940e0e;
+  color: #1e1e1e;
 }
 
 /* .prayer button {

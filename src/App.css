@@ -6,7 +6,12 @@ html {
   /* overflow: hidden; */
 }
 body {
-  background-color: #282c34 !important;
+  /* background-color: #282c34 !important; */
+  background-image: url("../public/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 .App {
   text-align: center;
